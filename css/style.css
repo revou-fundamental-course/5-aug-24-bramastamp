@@ -1,0 +1,103 @@
+* {
+  font-family:Arial, Helvetica, sans-serif
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(32, 32, 32);
+  padding: 0vh 20vh 0vh 20vh;
+  margin: 0;
+}
+p {
+  padding: 0vh 30vh 0vh 30vh;
+  text-align: justify;
+}
+.form-BMI {
+  background-color: rgb(240, 240, 240);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+label {
+  display: block;
+  margin: 0;
+  font-weight: bold;
+}
+
+input[type="number"],
+.gender {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.gender {
+  display: flex;
+}
+
+.gender .pria {
+  margin-right: 5vh;
+}
+
+input#pria, input#wanita {
+  margin: 0;
+  margin-right: 1vh;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+button[type="submit"] {
+  background-color: royalblue;
+  color: white;
+}
+
+button[type="reset"] {
+  background-color: #a1a1a1;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.result {
+  margin-top: 20px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  text-align: center;
+  display: none; /* Sembunyikan hasil awalnya */
+}
+
+.result h2 {
+  margin-bottom: 15px;
+}
+
+.result p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+#bmiResult {
+  text-align: center;
+  font-size: 34px;
+  margin-bottom: 15px;
+}
